@@ -1,0 +1,20 @@
+{
+  "bucket_sizes": {
+    "HEAD": 60,
+    "MID": 61,
+    "TAIL": 61,
+    "UNSEEN_IN_TRAIN": 269
+  },
+  "full_model_hit_rates": {
+    "HEAD": 0.9212937410310189,
+    "MID": 0.8470522803114572,
+    "TAIL": 0.49523809523809526,
+    "UNSEEN_IN_TRAIN": null
+  },
+  "no_prior_hit_rates": {
+    "HEAD": 0.9148912683519153,
+    "MID": 0.8292547274749722,
+    "TAIL": 0.5666666666666667,
+    "UNSEEN_IN_TRAIN": null
+  }
+}

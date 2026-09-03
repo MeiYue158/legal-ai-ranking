@@ -1,0 +1,277 @@
+{
+  "pool_size": 45000,
+  "exact_duplicate_groups": 267,
+  "exact_duplicate_affected_cases": 552,
+  "exact_duplicate_cross_split_groups": 105,
+  "near_duplicate_pairs": 680,
+  "near_duplicate_examples": [
+    {
+      "case_a": "data_train.json:107903",
+      "case_b": "data_train.json:90601",
+      "cosine": 1.0000001192092896,
+      "jaccard_4gram": 1.0
+    },
+    {
+      "case_a": "data_train.json:81351",
+      "case_b": "data_train.json:128029",
+      "cosine": 1.000000238418579,
+      "jaccard_4gram": 1.0
+    },
+    {
+      "case_a": "data_train.json:119587",
+      "case_b": "data_test.json:28233",
+      "cosine": 1.0000001192092896,
+      "jaccard_4gram": 1.0
+    },
+    {
+      "case_a": "data_train.json:93781",
+      "case_b": "data_test.json:18640",
+      "cosine": 0.9799240231513977,
+      "jaccard_4gram": 0.8507462686567164
+    },
+    {
+      "case_a": "data_train.json:115010",
+      "case_b": "data_train.json:85150",
+      "cosine": 0.9531154632568359,
+      "jaccard_4gram": 0.6798780487804879
+    },
+    {
+      "case_a": "data_train.json:76849",
+      "case_b": "data_test.json:9216",
+      "cosine": 0.9659873247146606,
+      "jaccard_4gram": 0.5390070921985816
+    },
+    {
+      "case_a": "data_train.json:89961",
+      "case_b": "data_train.json:114330",
+      "cosine": 0.9975727200508118,
+      "jaccard_4gram": 0.9118457300275482
+    },
+    {
+      "case_a": "data_train.json:96454",
+      "case_b": "data_train.json:98338",
+      "cosine": 0.9979453086853027,
+      "jaccard_4gram": 0.8902255639097745
+    },
+    {
+      "case_a": "data_train.json:129087",
+      "case_b": "data_train.json:151568",
+      "cosine": 0.9999998807907104,
+      "jaccard_4gram": 0.9824120603015075
+    },
+    {
+      "case_a": "data_train.json:39293",
+      "case_b": "data_train.json:33028",
+      "cosine": 0.9593161344528198,
+      "jaccard_4gram": 0.5018315018315018
+    },
+    {
+      "case_a": "data_train.json:39293",
+      "case_b": "data_train.json:36327",
+      "cosine": 0.9692965745925903,
+      "jaccard_4gram": 0.6431535269709544
+    },
+    {
+      "case_a": "data_train.json:39293",
+      "case_b": "data_train.json:39058",
+      "cosine": 0.9580541253089905,
+      "jaccard_4gram": 0.5482625482625483
+    },
+    {
+      "case_a": "data_train.json:39293",
+      "case_b": "data_train.json:38664",
+      "cosine": 0.9620623588562012,
+      "jaccard_4gram": 0.608
+    },
+    {
+      "case_a": "data_train.json:39293",
+      "case_b": "data_valid.json:5195",
+      "cosine": 0.9574691653251648,
+      "jaccard_4gram": 0.6487603305785123
+    },
+    {
+      "case_a": "data_train.json:139235",
+      "case_b": "data_train.json:130987",
+      "cosine": 0.9784900546073914,
+      "jaccard_4gram": 0.5666666666666667
+    },
+    {
+      "case_a": "data_train.json:37799",
+      "case_b": "data_train.json:37410",
+      "cosine": 0.9660677909851074,
+      "jaccard_4gram": 0.8994515539305301
+    },
+    {
+      "case_a": "data_train.json:37799",
+      "case_b": "data_train.json:28654",
+      "cosine": 0.9725310802459717,
+      "jaccard_4gram": 0.8622540250447227
+    },
+    {
+      "case_a": "data_train.json:652",
+      "case_b": "data_train.json:5219",
+      "cosine": 0.9999998807907104,
+      "jaccard_4gram": 1.0
+    },
+    {
+      "case_a": "data_train.json:102758",
+      "case_b": "data_test.json:28532",
+      "cosine": 0.9792452454566956,
+      "jaccard_4gram": 0.7465753424657534
+    },
+    {
+      "case_a": "data_train.json:113062",
+      "case_b": "data_train.json:139315",
+      "cosine": 1.0000001192092896,
+      "jaccard_4gram": 1.0
+    }
+  ],
+  "boundary_examples": [
+    {
+      "case_a": "data_train.json:17",
+      "case_b": "data_train.json:15742",
+      "cosine": 0.9384334087371826,
+      "jaccard_4gram": 0.06128133704735376,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "河北省乐亭县人民检察院指控，2013年6月2日14时许，在唐山市乐亭县王滩镇孙庄村大高滩东边约1公里的田地里，被告人姚某某与高某因琐事发生口角，后姚某某与高某相",
+      "fact_b": "北京市顺义区人民检察院指控：被告人高某于2013年10月7日20时许，在顺义区×镇×村×超市门口红绿灯西南角处，因琐事与赵×（男，33岁，河北省人，另案处理）发"
+    },
+    {
+      "case_a": "data_train.json:17",
+      "case_b": "data_test.json:5372",
+      "cosine": 0.9336722493171692,
+      "jaccard_4gram": 0.043076923076923075,
+      "same_label": false,
+      "decision": "keep separate",
+      "fact_a": "河北省乐亭县人民检察院指控，2013年6月2日14时许，在唐山市乐亭县王滩镇孙庄村大高滩东边约1公里的田地里，被告人姚某某与高某因琐事发生口角，后姚某某与高某相",
+      "fact_b": "河北省无极县人民检察院指控，2014年7月9日14时许，被告人张某某和王某某（现网上在逃）向本村村民张某要烟遭拒，遂将张某拽至无极县东郝庄村小学北边过道，并殴打"
+    },
+    {
+      "case_a": "data_train.json:125174",
+      "case_b": "data_train.json:144544",
+      "cosine": 0.9426180124282837,
+      "jaccard_4gram": 0.256198347107438,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "太和县人民检察院指控：2015年5年6日，太和县公安局三堂派出所民警巡逻发现赵某乙家院内种植大量的婴粟，组织人员进行了铲除，经清点婴粟共计960株，经查系被告人",
+      "fact_b": "太和县人民检察院指控：2017年5月17日，太和县公安局二郎派出所民警在工作中发现闫某在自己家中种植有大量罂粟，依法予以铲除，经清点被铲除罂粟共计600株。针对"
+    },
+    {
+      "case_a": "data_train.json:50351",
+      "case_b": "data_train.json:67194",
+      "cosine": 0.9558461904525757,
+      "jaccard_4gram": 0.19402985074626866,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "公诉机关指控，2016年8月起，被告人邓某某在佛山市禅城区郊边村卢江里13巷19号1楼房间内，以香港“六合彩”的中奖号码进行竞猜××，接受多人投注。2017年7",
+      "fact_b": "公诉机关指控，2016年7月份开始，被告人沈某莲在佛山市禅城区石湾街道深村村北东村民小组欧塘大街某棋牌室，利用香港“六合彩”的中奖号码进行竞猜××，接受多人投注"
+    },
+    {
+      "case_a": "data_train.json:149425",
+      "case_b": "data_train.json:109358",
+      "cosine": 0.9419510364532471,
+      "jaccard_4gram": 0.030327868852459017,
+      "same_label": false,
+      "decision": "keep separate",
+      "fact_a": "广东省广州市人民检察院指控：一、挪用公款罪：2013年3月至8月间，被告人陈某伙同同案人何某甲（另案处理），利用被告人陈某担任广东物资集团公司全资子公司广东航兴",
+      "fact_b": "广东省鹤山市人民检察院指控：2015年1月至7月份，被告人谭某甲利用在广东省伟强铜业科技有限公司任职业务员的职务便利先后收取了开平市澳伊玛卫浴实业有限公司、洁艺"
+    },
+    {
+      "case_a": "data_train.json:149425",
+      "case_b": "data_train.json:85946",
+      "cosine": 0.9310045838356018,
+      "jaccard_4gram": 0.01647875108412836,
+      "same_label": false,
+      "decision": "keep separate",
+      "fact_a": "广东省广州市人民检察院指控：一、挪用公款罪：2013年3月至8月间，被告人陈某伙同同案人何某甲（另案处理），利用被告人陈某担任广东物资集团公司全资子公司广东航兴",
+      "fact_b": "江苏省江阴市人民检察院指控，被告人吴某于2013年3月22日上午，在明知自己经营的江阴市亿联金属有限公司账户内没有资金的情况下，使用江阴市亿联金属有限公司的转账"
+    },
+    {
+      "case_a": "data_train.json:149425",
+      "case_b": "data_test.json:23208",
+      "cosine": 0.9410454630851746,
+      "jaccard_4gram": 0.06154910096818811,
+      "same_label": false,
+      "decision": "keep separate",
+      "fact_a": "广东省广州市人民检察院指控：一、挪用公款罪：2013年3月至8月间，被告人陈某伙同同案人何某甲（另案处理），利用被告人陈某担任广东物资集团公司全资子公司广东航兴",
+      "fact_b": "丰城市人民检察院指控：自2010年起，被告人徐某某利用担任江西丰城南方水泥有限公司供应处处长职务之便，为他人提供帮助和关照，非法收受他人财物总计194500元。"
+    },
+    {
+      "case_a": "data_train.json:121803",
+      "case_b": "data_train.json:101876",
+      "cosine": 0.9395428895950317,
+      "jaccard_4gram": 0.08484848484848485,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "唐河县人民检察院指控：2016年10月份，被告人谢某在唐河县工业园区景庄社区自家菜园内种植毒品原植物罂粟。2017年4月18日，唐河县公安局民警接匿名群众举报后",
+      "fact_b": "云南省宣威市人民检察院指控，2014年11月，被告人赵某某在宣威市落水镇灰洞村委会宏洞村其房屋旁边菜地种植毒品原植物，2015年3月10日被宣威市公安局民警查获"
+    },
+    {
+      "case_a": "data_train.json:121803",
+      "case_b": "data_train.json:132225",
+      "cosine": 0.9313358068466187,
+      "jaccard_4gram": 0.0743801652892562,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "唐河县人民检察院指控：2016年10月份，被告人谢某在唐河县工业园区景庄社区自家菜园内种植毒品原植物罂粟。2017年4月18日，唐河县公安局民警接匿名群众举报后",
+      "fact_b": "临颍县人民检察院指控：2017年3月29日，临颍县三家店派出所民警在临颍县三家店高宗寨村村民、被告人杨某家院子内扣押2150株罂粟幼苗，经核实，该片罂粟幼苗为杨"
+    },
+    {
+      "case_a": "data_train.json:121803",
+      "case_b": "data_train.json:83729",
+      "cosine": 0.9342488050460815,
+      "jaccard_4gram": 0.14074074074074075,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "唐河县人民检察院指控：2016年10月份，被告人谢某在唐河县工业园区景庄社区自家菜园内种植毒品原植物罂粟。2017年4月18日，唐河县公安局民警接匿名群众举报后",
+      "fact_b": "镇雄县人民检察院指控，2016年10月，被告人周某某在镇雄县林口乡菜子村坪子组赵家坟处的一块地里，种植疑似毒品原植物罂粟。2017年1月8日12时许，公安民警将"
+    },
+    {
+      "case_a": "data_train.json:121803",
+      "case_b": "data_test.json:21631",
+      "cosine": 0.944981575012207,
+      "jaccard_4gram": 0.06422018348623854,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "唐河县人民检察院指控：2016年10月份，被告人谢某在唐河县工业园区景庄社区自家菜园内种植毒品原植物罂粟。2017年4月18日，唐河县公安局民警接匿名群众举报后",
+      "fact_b": "公诉机关指控：2016年3月2日16时30分，禄劝县公安局汤郎派出所民警在被告人杨某某家位于X某房屋旁的三块菜地内查获其非法种植的疑似毒品原植物1036株。经昆"
+    },
+    {
+      "case_a": "data_train.json:125760",
+      "case_b": "data_train.json:120951",
+      "cosine": 0.9421379566192627,
+      "jaccard_4gram": 0.14545454545454545,
+      "same_label": true,
+      "decision": "keep separate",
+      "fact_a": "安徽省无为县人民检察院指控：2014年下半年，被告人赵某某在无为县姚沟镇新城行政村仓头一五自然村自家菜园地里非法种植罂粟。2015年5月6日，无为县公安局姚沟派",
+      "fact_b": "安徽省无为县人民检察院指控：被告人陈某某在位于无为县福渡镇福渡社区光明自然村废弃的自家老房子边非法种植罂粟。2016年5月19日8时30分许，被无为县公安局民警"
+    }
+  ],
+  "degenerate_count": 212,
+  "degenerate_pct": 0.004711111111111111,
+  "clusters_reassigned_cross_split": 228,
+  "cases_moved": 243,
+  "old_split_sizes": {
+    "train": 30000,
+    "test": 10000,
+    "valid": 5000
+  },
+  "new_split_sizes": {
+    "train": 30214,
+    "test": 9900,
+    "valid": 4886
+  },
+  "post_cleanup_overlap": {
+    "train_valid": 0,
+    "train_test": 0,
+    "valid_test": 0
+  },
+  "policy": {
+    "cos_candidate_threshold": 0.9,
+    "cos_dup_threshold": 0.95,
+    "jaccard_4gram_threshold": 0.5,
+    "requires_identical_label_set": true,
+    "excludes_degenerate_pairs": true
+  }
+}

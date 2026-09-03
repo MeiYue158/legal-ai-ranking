@@ -1,0 +1,46 @@
+{
+  "final_features": [
+    "bm25_score",
+    "bm25_rank",
+    "dense_score",
+    "dense_rank",
+    "case_vote_score",
+    "case_vote_count",
+    "jaccard",
+    "fact_len",
+    "article_len"
+  ],
+  "seeds": [
+    42,
+    123,
+    2025
+  ],
+  "per_seed_ndcg10": [
+    {
+      "seed": 42,
+      "ndcg@10": 0.7957962908972265
+    },
+    {
+      "seed": 123,
+      "ndcg@10": 0.7960736768220553
+    },
+    {
+      "seed": 2025,
+      "ndcg@10": 0.7957179891491334
+    }
+  ],
+  "mean_ndcg10": 0.7958626522894717,
+  "sd_ndcg10": 0.00018689918660256708,
+  "canonical_seed": 42,
+  "canonical_full_metrics": {
+    "recall@1": 0.6472020202020201,
+    "recall@3": 0.8191961279461278,
+    "recall@5": 0.8670782828282829,
+    "recall@10": 0.9065488215488214,
+    "ndcg@1": 0.6798989898989899,
+    "ndcg@3": 0.7610121335516188,
+    "ndcg@5": 0.7819292414587204,
+    "ndcg@10": 0.7957962908972265,
+    "mrr": 0.7683236420609706
+  }
+}

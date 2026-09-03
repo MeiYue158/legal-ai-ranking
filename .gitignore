@@ -1,0 +1,39 @@
+# --- Python environment ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- OS / editor cruft ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Secrets ---
+.env
+*.env
+
+# --- Large generated data & embedding caches ---
+# Everything under here is reproducible by running the pipeline in order
+# (see README.md) -- committing it would bloat the repo with 500MB+ of
+# regenerable binaries (several individual files exceed GitHub's 50MB
+# warning threshold). Keep only small, hand-authored/source artifacts.
+data/processed/*.parquet
+data/processed/emb_cache/
+experiments/*/*.parquet
+
+# jieba's own runtime cache, written next to whichever script imports it
+jieba.cache
+
+# --- Docker build leftovers (if ever exported locally) ---
+*.tar
+
+# --- Explicitly KEEP (small, meaningful artifacts -- listed for clarity,
+# not required since .gitignore only excludes) ---
+# data/statutes/articles.json          (parsed statute corpus, 288K)
+# data/statutes/article_embeddings*.npy (451-row corpus embeddings, <1.5M each)
+# data/statutes/raw_criminal_law_chnlawyer.html (source document, 272K)
+# reports/*.json, *.csv, *.md           (all metrics/results, small)
+# reports/*.pkl                         (trained models, <1M each)

@@ -1,0 +1,8 @@
+{
+  "full": 0.79032486267448,
+  "minus_bm25": 0.7740892702963823,
+  "minus_dense": 0.7863971156757885,
+  "minus_case_precedent": 0.6930056273693813,
+  "minus_jaccard": 0.782551326889246,
+  "minus_priors_lengths": 0.7566561008928563
+}

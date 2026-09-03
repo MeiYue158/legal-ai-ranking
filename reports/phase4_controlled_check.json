@@ -1,0 +1,5 @@
+{
+  "minilm_8k_subsample_ndcg10": 0.7831676873494913,
+  "e5_8k_subsample_ndcg10": 0.7984,
+  "minilm_full_30k_ndcg10": 0.7892
+}

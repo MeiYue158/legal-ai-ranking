@@ -1,0 +1,23 @@
+{
+  "gains": {
+    "bm25_score": 150189.2161040306,
+    "bm25_rank": 143004.2865600586,
+    "dense_score": 71063.86702537537,
+    "dense_rank": 5790.754076719284,
+    "case_vote_score": 1909947.1944041252,
+    "case_vote_count": 74950.93493747711,
+    "jaccard": 36930.2367708683,
+    "fact_len": 13782.756423711777,
+    "article_len": 89303.26045227051,
+    "article_prior": 410315.97169685364
+  },
+  "ablations": {
+    "full": 0.7891708868024694,
+    "minus_bm25": 0.7719166690738076,
+    "minus_dense": 0.7846348441533983,
+    "minus_case_precedent": 0.6914804700322924,
+    "minus_jaccard": 0.7788739870178417,
+    "minus_priors_lengths": 0.7512763219188506,
+    "minus_article_prior_only": 0.7812046035497143
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "feature_cols": [
+    "bm25_score",
+    "bm25_rank",
+    "dense_score",
+    "dense_rank",
+    "case_vote_score",
+    "case_vote_count",
+    "jaccard",
+    "fact_len",
+    "article_len",
+    "article_prior"
+  ],
+  "seeds": [
+    42,
+    123,
+    2025
+  ],
+  "hyperparameters": {
+    "objective": "lambdarank",
+    "n_estimators": 300,
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_child_samples": 10,
+    "eval_at": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "early_stopping_rounds": 30
+  },
+  "candidate_generation": {
+    "n_bm25_candidates": 30,
+    "n_dense_candidates": 30,
+    "n_case_neighbors": 15,
+    "n_case_vote_candidates": 15
+  },
+  "data": {
+    "suffix": "_clean",
+    "train_size": 30214,
+    "valid_size": 4886,
+    "test_size": 9900
+  },
+  "results": {
+    "per_seed": [
+      {
+        "seed": 42,
+        "recall@1": 0.6373367003367003,
+        "recall@3": 0.8072146464646464,
+        "recall@5": 0.857659090909091,
+        "recall@10": 0.9046464646464647,
+        "ndcg@1": 0.6682828282828283,
+        "ndcg@3": 0.7497572946598238,
+        "ndcg@5": 0.7717031496885871,
+        "ndcg@10": 0.7879318187504221,
+        "mrr": 0.7587771709084464
+      },
+      {
+        "seed": 123,
+        "recall@1": 0.636074074074074,
+        "recall@3": 0.8076296296296296,
+        "recall@5": 0.8576422558922558,
+        "recall@10": 0.9055723905723905,
+        "ndcg@1": 0.6672727272727272,
+        "ndcg@3": 0.7495706782147363,
+        "ndcg@5": 0.7713121602732734,
+        "ndcg@10": 0.7879019574796261,
+        "mrr": 0.7584403728407441
+      },
+      {
+        "seed": 2025,
+        "recall@1": 0.6357794612794613,
+        "recall@3": 0.8069823232323232,
+        "recall@5": 0.8572163299663299,
+        "recall@10": 0.9055387205387206,
+        "ndcg@1": 0.666969696969697,
+        "ndcg@3": 0.7489266934338655,
+        "ndcg@5": 0.7708038656969846,
+        "ndcg@10": 0.7874826819917141,
+        "mrr": 0.7578203297995795
+      }
+    ],
+    "ndcg@10_mean": 0.7877721527405873,
+    "ndcg@10_sd": 0.00025113325091143124
+  }
+}
